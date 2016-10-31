@@ -54,7 +54,8 @@
                 android:textAlignment="center"
                 android:clickable="true"
                 android:background="@color/colorBase"
-                android:foreground="?attr/selectableItemBackground"/>
+                android:foreground="?attr/selectableItemBackground"
+                android:stateListAnimator="@animator/raise"/>
 
         </LinearLayout>
 
